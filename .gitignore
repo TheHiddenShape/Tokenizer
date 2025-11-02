@@ -3,6 +3,7 @@
 
 # Compilation output
 /dist
+/ignition/deployments
 
 # pnpm deploy output
 /bundle
