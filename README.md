@@ -15,8 +15,8 @@ import  "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 
 /// @title RiddlerToken
 /// @notice Simple ERC20 token, initial mint, and owner-only mint function.
-contract  RiddlerToken  is  ERC20, ERC20Burnable, Ownable {
-	uint256 public  constant MAX_SUPPLY = 1_000_000 * 10**18;
+contract  RiddlerToken is ERC20, ERC20Burnable, Ownable {
+	uint256 public constant MAX_SUPPLY = 1_000_000 * 10**18;
 
 	constructor(uint256 initialSupply) ERC20("RiddlerToken", "RDLR") Ownable(msg.sender) {
 		require(initialSupply <= MAX_SUPPLY, "Exceeds max supply");
