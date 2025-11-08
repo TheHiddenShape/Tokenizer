@@ -106,4 +106,4 @@ https://hardhat.org/docs/guides/smart-contract-verification
 ## License
 
 Copyright © 2025 Ammon Netom-El Schiffer
-This project is [MIT](LICENSE) licensed.
+This project is [MIT](LICENSE.md) licensed.
