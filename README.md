@@ -1,5 +1,7 @@
 # Tokenizer - RiddlerToken ERC20
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## An Overview of the Smart Contract
 This project implements the RiddlerToken, an ERC20 token built using the OpenZeppelin standard contracts library. The project is developed with the latest version of Hardhat framework and utilizes Ignition with Viem for smart contract deployment. The project is configurated to be deployed on the Sepolia test network through [Alchemy](https://www.alchemy.com/) infrastructure.
 
@@ -100,3 +102,8 @@ npx hardhat console --network sepolia
 ```
 
 https://hardhat.org/docs/guides/smart-contract-verification
+
+## License
+
+Copyright © 2025 Ammon Netom-El Schiffer
+This project is [MIT](LICENSE) licensed.
