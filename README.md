@@ -44,7 +44,7 @@ contract  RiddlerToken is ERC20, ERC20Burnable, Ownable {
 ### Faucets
 You must have at least **0.001 ETH** in your MetaMask wallet on the Ethereum mainnet in order to use faucets.
 
-https://cloud.google.com/application/web3/faucet/ethereum/sepolia
+https://cloud.google.com/application/web3/faucet/ethereum/sepolia  
 https://www.alchemy.com/faucets/ethereum-sepolia
 
 ## Installation & Configuration
