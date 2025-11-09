@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## An Overview of the Smart Contract
-This project implements the RiddlerToken, an ERC20 token built using the OpenZeppelin standard contracts library. The project is developed with the latest version of Hardhat framework and utilizes Ignition with Viem for smart contract deployment. The project is configurated to be deployed on the Sepolia test network through [Alchemy](https://www.alchemy.com/) infrastructure.
+RiddlerToken is an ERC20 token built using the OpenZeppelin standard contracts library. Development leverages the latest Hardhat framework version and utilizes Ignition with Viem for smart contract deployment. Configuration targets the Sepolia test network through [Alchemy](https://www.alchemy.com/) infrastructure.
 
 ERC-20 is a technical standard for creating fungible token smart contracts on the Ethereum blockchain. The EVM (Ethereum Virtual Machine) executes these contracts identically across all network nodes, ensuring that each transaction modifies the global state in a deterministic and permanent way.
 
