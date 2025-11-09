@@ -5,7 +5,9 @@
 ## An Overview of the Smart Contract
 This project implements the RiddlerToken, an ERC20 token built using the OpenZeppelin standard contracts library. The project is developed with the latest version of Hardhat framework and utilizes Ignition with Viem for smart contract deployment. The project is configurated to be deployed on the Sepolia test network through [Alchemy](https://www.alchemy.com/) infrastructure.
 
-It includes standard ERC20 functionality (token transfers, allowance management, balance queries), supply management with a 1M token hard cap, owner-controlled minting, and token burning capabilities. Access control is enforced through the Ownable pattern, ensuring only the contract owner can mint new tokens while respecting the maximum supply limit.
+ERC-20 is a technical standard for creating fungible token smart contracts on the Ethereum blockchain. The EVM (Ethereum Virtual Machine) executes these contracts identically across all network nodes, ensuring that each transaction modifies the global state in a deterministic and permanent way.
+
+It includes standard functionality (token transfers, allowance management, balance queries), supply management with a 1M token hard cap, owner-controlled minting, and token burning capabilities. Access control is enforced through the Ownable pattern, ensuring only the contract owner can mint new tokens while respecting the maximum supply limit.
 
 > The maximum size for a deployed smart contract on Ethereum is 24 KB (24,576 bytes), introduced with EIP-170.
 
@@ -90,8 +92,6 @@ $$
 \text{Cost (EUR)} = \frac{\text{Gas Used} \times \text{Gas Price (Gwei)} \times \text{ETH Price (EUR)}}{1\,000\,000\,000}
 $$
 
-https://hardhat.org/docs/guides/gas-statistics
-
 ## Deployment
 
 ```bash
@@ -103,7 +103,7 @@ npx hardhat clean
 npx hardhat ignition deploy ignition/modules/RiddlerTokenModule.ts --network sepolia
 
 # verify deployment status
-npx hardhat ignition status --network sepolia
+npx hardhat ignition status chain-11155111 --network sepolia
 
 # interact with sepolia network
 npx hardhat console --network sepolia
