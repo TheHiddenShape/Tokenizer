@@ -73,8 +73,6 @@ SEPOLIA_PRIVATE_KEY=[PRIVATE KEY]
 
 ## Testing
 
-
-
 ```bash
 # run all tests
 npx hardhat test
@@ -109,7 +107,18 @@ npx hardhat ignition status chain-11155111 --network sepolia
 npx hardhat console --network sepolia
 ```
 
-https://hardhat.org/docs/guides/smart-contract-verification
+## Solidity contract source validation
+
+```bash
+# flatten contract for verification & validation on sepolia testnet
+npx hardhat flatten > flatten/flattened.sol
+```
+
+We use the following in order to verify the smart contract: https://sepolia.etherscan.io/verifyContract
+  
+Compiler Version: v0.8.28+commit.7893614a
+Optimization Enabled: 1
+Runs: 200
 
 ## License
 
