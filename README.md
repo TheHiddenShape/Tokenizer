@@ -7,6 +7,8 @@ This project implements the RiddlerToken, an ERC20 token built using the OpenZep
 
 It includes standard ERC20 functionality (token transfers, allowance management, balance queries), supply management with a 1M token hard cap, owner-controlled minting, and token burning capabilities. Access control is enforced through the Ownable pattern, ensuring only the contract owner can mint new tokens while respecting the maximum supply limit.
 
+> The maximum size for a deployed smart contract on Ethereum is 24 KB (24,576 bytes), introduced with EIP-170.
+
 ```ts
 // SPDX-License-Identifier: MIT
 pragma  solidity ^0.8.20;
@@ -76,7 +78,7 @@ SEPOLIA_PRIVATE_KEY=[PRIVATE KEY]
 npx hardhat test
 
 # run tests with gas reporting
-npx hardhat test --gas-reporter
+npx hardhat test --gas-stats
 
 # run tests with coverage analysis
 npx hardhat test --coverage
