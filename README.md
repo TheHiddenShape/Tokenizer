@@ -116,8 +116,8 @@ npx hardhat flatten > flatten/flattened.sol
 
 We use the following in order to verify the smart contract: https://sepolia.etherscan.io/verifyContract
   
-Compiler Version: v0.8.28+commit.7893614a
-Optimization Enabled: 1
+Compiler Version: v0.8.28+commit.7893614a  
+Optimization Enabled: 1  
 Runs: 200
 
 ## License
