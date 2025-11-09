@@ -84,6 +84,12 @@ npx hardhat test --gas-stats
 npx hardhat test --coverage
 ```
 
+For the --gas-stats output, you can calculate the fees (Deployment Cost) using the following formula:
+
+$$
+\text{Cost (EUR)} = \frac{\text{Gas Used} \times \text{Gas Price (Gwei)} \times \text{ETH Price (EUR)}}{1\,000\,000\,000}
+$$
+
 https://hardhat.org/docs/guides/gas-statistics
 
 ## Deployment
